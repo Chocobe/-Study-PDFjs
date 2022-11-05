@@ -1,5 +1,9 @@
 # PDF.js 구현 (vanilla JS)
 
+* 참고: [https://usefulangle.com/post/20/pdfjs-tutorial-1-preview-pdf-during-upload-wih-next-prev-buttons](https://usefulangle.com/post/20/pdfjs-tutorial-1-preview-pdf-during-upload-wih-next-prev-buttons)
+
+<br />
+
 # PDF.js API
 
 ## PDFJS.getDocument({ url }) 
