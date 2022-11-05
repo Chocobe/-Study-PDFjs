@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PDF.js 테스트</title>
+  </head>
+
+  <body>
+    <div class="App">
+      <!-- PDF Loading 시작 버튼 -->
+      <button id="show-pdf-button">Show PDF</button>
+
+      <div id="pdf-main-container">
+        <!-- PDF Loading 중에 보여줄 Message -->
+        <div id="pdf-loader">
+          Loading document...
+        </div>
+
+        <div id="pdf-contents">
+          <div id="pdf-meta">
+            <div id="pdf-buttons">
+              <!-- 이전 페이지로 이동 버튼 -->
+              <button id="pdf-prev">Previous</button>
+
+              <!-- 다음 페이지로 이동 버튼 -->
+              <button id="pdf-next">Next</button>
+            </div>
+
+            <!-- 페이지 정보 -->
+            <div id="page-count-container">
+              Page
+              <div id="pdf-current-page"></div>
+              of
+              <div id="pdf-total-pages"></div>
+            </div>
+          </div>
+
+          <!-- PDF 파일을 실제로 rendering 할 영역 -->
+          <canvas id="pdf-canvas"></canvas>
+
+          <!-- Page Loading 중에 보여줄 Message -->
+          <div id="page-loader">Loading page...</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
